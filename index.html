@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/jpg" href="images/favicon.jpg">
+        <title>My first website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>H1 heading</h1>
+        <h2>H2 heading</h2>
+        <h3>H3 heading</h3> 
+        <h4>H4 heading</h4>
+        <h5>H5 heading</h5>
+        <h6>H6 heading</h6>
+        <p>This is a paragraph.</p>
+        <hr>
+        <br>
+        <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Laborum dolorum non quia, libero quisquam repellendus, 
+            esse amet debitis quae ipsum ab, optio tenetur. Numquam, 
+            ipsum natus quaerat alias a optio.
+        </pre>
+        <!-- This is a comment -->
+         <a href="https://www.google.com/"
+         target="_blank"
+         title="Goes to Google">
+         Click me
+        </a>
+        <br>
+        <a href="lyrics.html">
+            Song Lyrics
+        </a>
+        <br>
+        <a href="mailto:williampangestuw@gmail.com">
+            Email Me
+        </a>
+        <br>
+        <br>
+        
+        <h1>this is me winning on valorant</h1>
+        <a href="https://en.wikipedia.org/wiki/Dog">
+        <img src="images/Screenshot (6).png"
+        alt="This is an image of me winning in valorant"
+        height="200">
+        </a>
+        <h3>this is me winning on valorant</h3>
+        <img src="images/Screenshot (8).png"
+        alt="Also got an ace"
+        height="200">
+
+        <br><br>
+        <audio controls autoplay muted loop>
+            <source src="music/Bah Dop Bop - Casa Rosa's Tulum Vibes.mp3" type="audio/mpeg">
+            <source src="music/Bah Dop Bop - Casa Rosa's Tulum Vibes.wav" type="audio/wav">
+        </audio>
+        <br><br>
+        <audio controls autoplay muted loop>
+            <source src="music/Racing Trains - Casa Rosa's Tulum Vibes.mp3" type="audio/mpeg">
+            <source src="music/Racing Trains - Casa Rosa's Tulum Vibes.wav" type="audio/wav">
+        </audio>
+        <br><br>
+        <audio controls autoplay muted loop>
+            <source src="music/Swimming with Gurus - Casa Rosa's Tulum Vibes.mp3" type="audio/mpeg">
+            <source src="music/Swimming with Gurus - Casa Rosa's Tulum Vibes.wav" type="audio/wav">
+        </audio>
+        <br><br>
+        <h1><span style="background-color:pink;">this is a span title</span></h1>
+        <h1><div style="background-color: aqua;">this is a div title</div></h1>
+
+        <br><br>
+
+        <p><span style="background-color:pink;">this is a span title</span></p>
+        <p><div style="background-color: aqua;">this is a div title</div></p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis magnam facere accusamus at doloremque quis rerum ad, fuga tenetur explicabo expedita a alias ex <span style="background-color: blueviolet;">tempora quidem maiores beatae asperiores? Error.</span></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <div style="background-color: aqua;">Reiciendis magnam facere accusamus at doloremque quis rerum ad, fuga tenetur explicabo expedita a alias ex tempora quidem maiores beatae asperiores? Error.</div></p>
+    
+        <br><br>
+
+        <h1>this is a list</h1>
+        <ul>
+            <li>this is a list item</li>
+            <li>this is a list item</li>
+            <li>this is a list item</li>   
+            <li>this is a list item</li>
+            <li>this is a list item</li>   
+        </ul>
+        <ol>
+            <li>this is a list item</li>
+            <li>this is a list item</li>
+            <li>this is a list item</li>   
+            <li>this is a list item</li>
+            <li>this is a list item</li>
+        </ol>
+        <dl style="background-color: crimson; border:2px solid">
+            <dt>this is a list item</dt>
+            <dd>this is a list item</dd>
+            <dt>this is a list item</dt>
+            <dd>this is a list item</dd>
+            <dt>this is a list item</dt>
+            <dd>this is a list item</dd>
+        </dl>
+        <br><br>
+
+        <h3>this is a table</h3>
+        <table border="1" cellpadding="10" cellspacing="0" style="background-color: aqua; border:2px solid">
+            <tr align="center" style="background-color: cadetblue;">
+                <th width="200">this is a table header</th>
+                <th width="200">this is a table header</th>
+                <th width="200">this is a table header</th>
+            </tr>
+            <tr align="center">
+                <td>this is a table data</td>
+                <td>this is a table data</td>
+                <td>this is a table data</td>
+            </tr>
+            <tr align="center">
+                <td>this is a table data</td>
+                <td>this is a table data</td>
+                <td>this is a table data</td>
+            </tr>
+        </table>
+
+        <br><br>
+
+        <a href="page2.html" target="_blank" title="Goes to page 2">
+            <button style="font-size:25px; background-color: darkslateblue; color: yellowgreen; border-radius:25px;">Click Me</button>
+        </a>
+
+        <br><br>
+
+        <button onclick="doSomething()" style="font-size:25px; background-color: darkgray; color: bisque; border-radius:25px;">Click Me</button>
+        <p id="greeting">Hello</p>
+        <script>
+            function doSomething() {
+                document.getElementById("greeting").innerHTML = "Goodbye!";
+            }
+        </script>
+
+        <br><br>
+
+        <h3>this is a form</h3>
+
+        <form action="index.php" method="post" enctype="multipart/form-data">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" minlength="6" maxlength="15" required><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+            <label for="bday">Birthdate:</label><br>
+            <input type="date" id="bday" name="bday" required><br><br>
+            <label for="quantity">Quantity:</label><br>
+            <input type="number" id="quantity" name="quantity" min="0" max="99" value="1" required><br><br>
+            <label for="title">Title:</label><br>
+            <input type="radio" id="Mr." value="Mr." name="title" required>
+            <label for="Mr.">Mr.</label><br>
+            <input type="radio" id="Mrs." value="Mrs." name="title" required>
+            <label for="Mrs.">Mrs.</label><br>
+            <input type="radio" id="Ms." value="Ms." name="title" required>
+            <label for="Ms.">Ms.</label><br><br>
+            <label for="payment">Payment</label>
+            <select id="payment" name="payment" required>
+                <option value="credit">Visa</option>
+                <option value="debit">Mastercard</option>
+                <option value="paypal">PayPal</option>
+            </select><br><br>
+            <label for="subscribe">Subscribe:</label><br>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
+            <label for="comment">Comment:</label>
+            <textarea id="comment" rows="3" cols="25"></textarea>
+            <br><br>
+            <label for="file">File:</label>
+            <input type="file" id="file" name="file" accept=".jpg, .png, .pdf"><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+        
+        <br><br>
+
+        <header style="background-color: lightpink;">
+            <h1>Welcome here</h1>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Products</a>
+            <a href="">Contact</a>
+            <hr>
+        </header>
+
+        <main>
+            <h4>Heyy</h4>
+            <image src="images/Screenshot (2619).png" alt="Photograph" height="200">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Laborum dolorum non quia, libero quisquam repellendus, 
+                esse amet debitis quae ipsum ab, optio tenetur. Numquam, 
+                ipsum natus quaerat alias a optio.
+        </main> 
+
+        <footer style="background-color: lightsalmon;">
+            <hr>
+            author: wilpang <br>
+            &copy; copyright reserved<br>
+            <small><a href="mailto:williampangestuw@gmail.com">Williampangestuw@gmail.com</a></small><br>
+        </footer>
+
+        <br><br>
+
+    </body>
+    <body>
+
+        <h1>This is my web</h1>
+
+        <p id="p1" class="odd">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium iusto illum repudiandae architecto molestias ea. Nihil cumque pariatur dicta quae nostrum voluptatum fuga quis deserunt esse veniam, hic, ea voluptas?</p>
+        <p id="p2" class="even">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium iusto illum repudiandae architecto molestias ea. Nihil cumque pariatur dicta quae nostrum voluptatum fuga quis deserunt esse veniam, hic, ea voluptas?</p>
+        <p id="p3" class="odd">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium iusto illum repudiandae architecto molestias ea. Nihil cumque pariatur dicta quae nostrum voluptatum fuga quis deserunt esse veniam, hic, ea voluptas?</p>
+        <p id="p4" class="even">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium iusto illum repudiandae architecto molestias ea. Nihil cumque pariatur dicta quae nostrum voluptatum fuga quis deserunt esse veniam, hic, ea voluptas?</p>
+
+
+    </body>
+</html>
